@@ -3,7 +3,7 @@ module.exports = ({ env }) => ({
     enabled: true,
     config: {
       url: process.env.HOOK_PUBLISH_URL,
-      headers: { Autorization: process.env.HOOK_PUBLISH_AUTHORIZATION },
+      headers: { authorization: process.env.HOOK_PUBLISH_AUTHORIZATION },
       trigger: {
         type: "manual",
       },
