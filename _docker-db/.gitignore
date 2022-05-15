@@ -1,0 +1,9 @@
+node_modules/
+.tmp
+# Environment Variables
+.env
+
+# Strapi and MariaDB folders
+app
+data
+backup
