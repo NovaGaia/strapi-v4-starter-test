@@ -3,6 +3,7 @@ services:
   mysql-light:
     image: mysql
     container_name: mysql-light
+    command: --default-authentication-plugin=mysql_native_password
     ports:
       - 3306:3306
     volumes:
